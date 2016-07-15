@@ -20,13 +20,10 @@ public class LoopsPractice {
 			int end = string.indexOf(" ", start);
 			
 			System.out.println(string.substring(start, end));
-			i = end+1;	
+			i = end+1;
+			
 		}
 			
-	}
+		}
 		
 }
-
-//apparel
-//makeup
-//furniture
