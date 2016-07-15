@@ -11,12 +11,12 @@ public class ForLoopPractice {
 		System.out.println("letter: " + name.charAt(i));
 	}
 			
-		// reverse 
-		for (int j = name.length() - 1; j <= 0; j--) {
-			System.out.println("name reversed : " + name.charAt(j));
-		}
+//		// reverse 
+//		for (int j = name.length() - 1; j <= name.length(); j--) {
+//			System.out.println("name reversed : " + name.charAt(j));
+//		}
 		
-		for (int k = 0; k <= 100; k += 2) {
+		for (int k = 2; k <= 100; k += 2) {
 			System.out.println("this is even: " + k);
 		}
 	}
