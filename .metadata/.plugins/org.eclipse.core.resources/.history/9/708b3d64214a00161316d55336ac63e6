@@ -32,21 +32,13 @@ public class App {
 	
 	
 	
+	
+	
+	
+	
 //----------------------STARTING POINT OF PROGRAM. IGNORE BELOW --------------------//
 	public static void main(String args[]){
 	
 		TestingUtils.runTests();
 	}
 }
-
-//PASS: middleThree(12345) -> 234
-//PASS: middleThree(apple) -> ppl
-//PASS: middleThree(tiger) -> ige
-//PASS: middleThree(candy) -> and
-//PASS: middleThree(add) -> add
-//PASS: middleThree(ad) -> ad
-//PASS: middleThree(a) -> a
-//PASS: middleThree() -> 
-//PASS: middleThree(del) -> del
-//PASS: middleThree(denny) -> enn
-//PASS: middleThree(sfveaadelbb) -> aad
