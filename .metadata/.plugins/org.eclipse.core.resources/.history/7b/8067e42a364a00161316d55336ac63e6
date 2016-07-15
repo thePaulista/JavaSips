@@ -1,0 +1,17 @@
+package practice.loops;
+
+public class LoopsPractice {
+	public static void main(String[] args) {
+
+		int count = 0; 
+		
+		while(count <=100) {
+			System.out.println("hedy");
+			System.out.println(count +=1);
+			 
+			if(count == 30);
+			break;
+		}
+	}
+
+}

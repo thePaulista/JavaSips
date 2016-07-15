@@ -1,0 +1,20 @@
+
+public class StringPractice {
+	public static void main(String[] args) {
+		
+		String a = "hello";
+		String b = "there";
+		
+		if(a == "hello") {
+			//This is a trap. Do not do this.	                  
+		} 
+		
+		if(a.equals("hello")){
+			// Use this!!
+		}
+		
+		if(b.equalsIgnoreCase("ThErE"))
+			System.out.println("Printed there");
+	}
+
+}

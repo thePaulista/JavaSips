@@ -1,0 +1,25 @@
+package practice.loops;
+
+public class LoopsPractice {
+	public static void main(String[] args) {
+
+		String str = "We have a large inventory of things in our warehouse falling in "
+				+ "the category: apparel and the slightly "
+				+ "more in demand category: makeup alonng with the category: furniture and ...";
+		
+		printCategories(str);
+	}
+
+	public static void printCategories(String string) {
+		int stringSize = 0;
+		int count = string.length();
+		System.out.println(count);
+//		while(count > 0) {
+//			int found = string.indexOf("apparel");
+//			System.out.println(found);
+//			count +=1;
+//		}
+			
+		}
+		
+}

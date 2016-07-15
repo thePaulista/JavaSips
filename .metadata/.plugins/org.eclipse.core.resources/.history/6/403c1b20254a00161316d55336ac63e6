@@ -1,0 +1,36 @@
+
+public class StringPractice {
+	public static void main(String[] args) {
+		
+		String a = "hello";
+		String b = "there";
+
+		//returns a data type, and only a single character
+		// with single quote:
+		// char myChar = "H";
+		
+		String str = "Hello  there Piper there";
+		
+		int z = str.indexOf("Piper");
+		int x = str.indexOf("there", 7)
+		
+		System.out.println(z); //13
+		System.out.println(x);  // 7 represents where the starting index
+		
+				
+		
+		System.out.println(a.charAt(3));
+		
+		if(a == "hello") {
+			//This is a trap. Do not do this.	                  
+		} 
+		
+		if(a.equals("hello")){
+			// Use this!!
+		}
+		
+		if(b.equalsIgnoreCase("ThErE"))
+			System.out.println("Printed there yo");
+	}
+
+}
