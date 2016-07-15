@@ -10,22 +10,24 @@ public class LoopsPractice {
 		printCategories(str);
 	}
 
-	public static void printCategories(String string) {
+	public static void printCategories(String str) {
 		int i = 0;
 		
 		while(true) {
-			int found = string.indexOf("category:", i);
+			int found = str.indexOf("category", i);
 			if(found == -1) break;
-			int start = found + 9; // start of the actual category
-			int end = string.indexOf(" ", start);
 			
-			System.out.println(string.substring(start, end));
-			i = end+1;	
+			int start = found + 9;
+			int end = str.indexOf(" ", start);
+			
+			System.out.println(str.substring(start,end));
+			i = end + 1;
 		}
-			
-	}
 		
+	}
+			
 }
+		
 
 //apparel
 //makeup
