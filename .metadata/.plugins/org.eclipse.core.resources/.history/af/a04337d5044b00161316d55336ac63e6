@@ -1,0 +1,16 @@
+package practice.arrays;
+
+public class ArraysJudo {
+	
+	public static void main(String[] args) {
+		
+		int[] values;
+		values = new int[100];
+		
+		values[3] = 8;
+		
+		System.out.println(values[3]);
+			
+	}
+
+}
