@@ -1,0 +1,18 @@
+package practice.recursionchallenge;
+
+public class RercusionChallenge {
+	public static void main(String[] args) {
+		
+		System.out.println(allDollars("hello")); //h$e$l%l%o
+		System.out.println(allDollars("piper")); //p$i$p$e$r
+	
+	}
+	
+	public static String allDollars(String word) {
+		System.out.println(word.length);
+		return word;
+		
+		
+	}
+
+}

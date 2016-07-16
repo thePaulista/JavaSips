@@ -9,7 +9,7 @@ public class RecursionPractice {
 	public static void printHello(int num) {
 		System.out.println("hey yo. I'm " + num);
 		num++;
-		if(num < 10){
+		if(num < 20){
 		printHello(num);
 		}
 	}
