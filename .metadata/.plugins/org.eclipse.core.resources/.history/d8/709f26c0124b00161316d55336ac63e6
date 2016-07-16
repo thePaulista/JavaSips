@@ -1,0 +1,16 @@
+package practice.recursion;
+
+public class RecursionPractice {
+	public static void main(String[] args) {
+		printHello(5);
+	}
+	
+	public static void printHello(int num) {
+		System.out.println("hey yo" + num);
+		num++;
+		if(num < 100){
+		printHello(num);
+		}
+	}
+
+}
