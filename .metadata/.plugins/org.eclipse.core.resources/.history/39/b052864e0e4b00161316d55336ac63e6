@@ -9,7 +9,7 @@ public class TargetSearch {
 	
 	public static int search(int[] nums, int target) {
 		
-		int ret = -1; // to break from the loop earlier, if target found
+		int ret = -1;
 		for(int i = 0; i < nums.length; i++) {
 			if(nums[i] == target) {
 				ret = i;
@@ -23,6 +23,3 @@ public class TargetSearch {
 	}
 
 }
-
-//3
-//-1
