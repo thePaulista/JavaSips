@@ -21,12 +21,54 @@ public class App {
 	 */
 		public static int speedingFine(int speed, boolean isHoliday) {
 			
-			return 0;
-
+			int minSpeed = 60;
+			int maxSpeed = 80;
+			int fine = 0;
+			
+			if(isHoliday) {
+				minSpeed += 5;
+				maxSpeed +=5;
+			}
+			
+			if (speed >= maxSpeed)
+				fine = 200;
+			if (speed <= minSpeed)
+				fine = 0;
+			if (speed > minSpeed && speed <= maxSpeed)
+				fine = 100;
+			return fine;
+						
 		}
-		
+
+//Alternate way, more succinct, but less readable:
+//	public static int speedingFine(int speed, boolean isHoliday) {
+//			if (isHoliday) {
+//				speed -= 5;
+//			}
+//			
+//			if (speed <= 60)
+//				return 0;
+//			
+//			if (speed >60 && speed <= 80)
+//				return 100;
+//			else
+//				return 200;
+//		}
 	
 	
+	
+//		PASS: speedingFine(60, false) -> 0
+//		PASS: speedingFine(65, false) -> 100
+//		PASS: speedingFine(65, true) -> 0
+//		PASS: speedingFine(80, false) -> 100
+//		PASS: speedingFine(85, false) -> 200
+//		PASS: speedingFine(85, true) -> 100
+//		PASS: speedingFine(70, false) -> 100
+//		PASS: speedingFine(75, false) -> 100
+//		PASS: speedingFine(75, true) -> 100
+//		PASS: speedingFine(40, false) -> 0
+//		PASS: speedingFine(40, true) -> 0
+//		PASS: speedingFine(90, false) -> 200
 	
 	
 	
